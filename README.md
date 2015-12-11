@@ -1,1 +1,1 @@
-# CitiBike
+Using google app engine and json data from Citi Bike i made a simple webapp that takes all the bike share stations in NYC and shows you the ones that aren't full, also has some Google Maps api usage in it as well. 

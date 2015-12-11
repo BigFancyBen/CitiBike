@@ -1,0 +1,16 @@
+application: benadamsrgabikes
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /.*
+  script: getbikes.application
+  
+libraries:
+- name: webapp2
+  version: latest
